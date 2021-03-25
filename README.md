@@ -19,8 +19,10 @@ pass it a jwt containing JSON like:
     "details": "an optional description"
   },
   "items": [
-    "sku": "SKU_FOR_PIN",
-    "quantity": "1"
+    {
+      "sku": "SKU_FOR_PIN",
+      "quantity": "1"
+    }
   ],
   "dropdowns": [
     {
